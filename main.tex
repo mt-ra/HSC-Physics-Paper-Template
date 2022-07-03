@@ -1,0 +1,19 @@
+\documentclass[12pt]{extarticle}    % change for bigger fonts
+\usepackage[utf8]{inputenc}         % must include
+\usepackage{exam}                   % the exam.sty styles
+\usepackage{import}
+
+\title{Exam Template}       % name of the exam
+\author{@draketeach}        % author(s)
+\date{September 2021}       % date last modified
+
+\begin{document}            % begin the document
+\input{coverpage.tex}       % the cover page is a separate file
+
+\import{sections/}{section1.tex}
+\newpage
+\import{sections/}{section2.tex}
+\newpage
+\blankpage                      % blank page
+
+\end{document}                  % end the document
